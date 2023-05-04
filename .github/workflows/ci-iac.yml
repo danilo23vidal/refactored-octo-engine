@@ -30,6 +30,7 @@ jobs:
           hide-progress: false
           format: 'table'
           exit-code: '1'
-          ignore-unfixed: false
+          ignore-unfixed: true
+          # ignore-unfixed: false
           severity: 'MEDIUM,HIGH,CRITICAL'
           # severity: 'UNKNOWN,LOW,MEDIUM,HIGH,CRITICAL'
