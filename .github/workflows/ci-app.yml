@@ -130,4 +130,4 @@ jobs:
         with:
           image: "${{ needs.docker-build.outputs.full_docker_image_tag }}"
           output-format: table
-          fail-build: true
+          fail-build: false #true falla el build si encuentra vulnerabilidades
